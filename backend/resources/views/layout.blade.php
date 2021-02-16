@@ -11,10 +11,10 @@
   <!-- css読み込み -->
   @if(app('env') == 'production')
   <!-- 本番用 -->
-  <link href="{{ secure_asset('/css/app.css') }}" rel="stylesheet">
+  <link rel="stylesheet" href="{{ secure_asset('/css/app.css') }}">
   @else
   <!-- ローカル用 -->
-  <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
+  <link rel="stylesheet" href="{{ asset('css/app.css') }}">
   @endif
   <script src="/js/app.js" defer></script>
   <title>@yield('title')</title>

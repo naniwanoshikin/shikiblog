@@ -1,10 +1,10 @@
 # shikiblog
-laravelでブログ機能を作成中
-
-まだ途中段階
-
-
+laravelでブログ機能を作成中（まだ途中段階）
 git pushは済
+
+
+gitignoreしてるのになぜDS_sotre出るの？？
+
 
 参考ページ
 最強のlaravel環境をDockerを使って構築
